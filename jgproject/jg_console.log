@@ -1,0 +1,59 @@
+2026-10-01 22:15:16.542502 (14487) main____ INFO    ----------------------------------------
+2026-10-01 22:15:16.542660 (14487) main____ INFO    JasperGold version info
+2026-10-01 22:15:16.542683 (14487) main____ INFO      tool      : JasperGold 2019.12
+2026-10-01 22:15:16.542703 (14487) main____ INFO      version   : 2019.12p002 64 bits
+2026-10-01 22:15:16.542717 (14487) main____ INFO      build date: 2020.02.27 18:30:54 PST
+2026-10-01 22:15:16.542728 (14487) main____ INFO    ----------------------------------------
+2026-10-01 22:15:16.542738 (14487) main____ INFO    Runtime info:
+2026-10-01 22:15:16.542751 (14487) main____ INFO      platform  : Linux 3.10.0-1160.118.1.el7.x86_64 x86_64
+2026-10-01 22:15:16.542767 (14487) main____ INFO      hostname  : compute-srv3.eda.atme.in
+2026-10-01 22:15:16.542779 (14487) main____ INFO      pid       : 14487
+2026-10-01 22:15:16.542792 (14487) main____ INFO      arguments : '-style' 'windows' 'usb2_crc5.tcl'
+2026-10-01 22:15:16.542809 (14487) main____ INFO      locale    : ISO-8859-1
+2026-10-01 22:15:16.542825 (14487) main____ INFO    ----------------------------------------
+2026-10-01 22:15:16.542835 (14487) main____ INFO    System resource limits info:
+2026-10-01 22:15:16.542846 (14487) main____ INFO      virtual memory: unlimited
+2026-10-01 22:15:16.542858 (14487) main____ INFO      cpu time      : unlimited
+2026-10-01 22:15:16.542889 (14487) main____ INFO      stack size    : 8388608 B
+2026-10-01 22:15:16.542905 (14487) main____ INFO      core file size: 0 B
+2026-10-01 22:15:16.542923 (14487) main____ INFO      open files    : 1024
+2026-10-01 22:15:16.542935 (14487) main____ INFO      file size     : unlimited
+2026-10-01 22:15:16.542946 (14487) main____ INFO    ----------------------------------------
+2026-10-01 22:15:16.542955 (14487) main____ INFO    Memory statistics:
+2026-10-01 22:15:16.542966 (14487) main____ INFO      total physical memory  : 528067612 kB
+2026-10-01 22:15:16.542976 (14487) main____ INFO      free physical memory   : 414737364 kB
+2026-10-01 22:15:16.542986 (14487) main____ INFO      committed address space: 250507324 kB
+2026-10-01 22:15:16.542995 (14487) main____ INFO    ----------------------------------------
+2026-10-01 22:15:16.543092 (14487) main____ INFO    Important environment variables:
+2026-10-01 22:15:16.543120 (14487) main____ INFO      CDS_LIC_FILE   : '5280@rbcadence2'
+2026-10-01 22:15:16.543136 (14487) main____ INFO      DISPLAY        : ':36'
+2026-10-01 22:15:16.543150 (14487) main____ INFO      EDITOR         : 'gvim'
+2026-10-01 22:15:16.543164 (14487) main____ INFO      LANG           : 'en_US'
+2026-10-01 22:15:16.543178 (14487) main____ INFO      LM_LICENSE_FILE: '5280@rbcadence2'
+2026-10-01 22:15:16.543189 (14487) main____ INFO    ----------------------------------------
+2026-10-01 22:15:16.545406 (14487) lic_core INFO    Initializing license system ...
+2026-10-01 22:15:16.546322 (14487) lic_core INFO    ... license system initialized.
+2026-10-01 22:15:16.549035 (14487) lic__man INFO    Claim 'main' for <ui>.
+2026-10-01 22:15:16.549129 (14487) lic_core INFO    (1) checking out 'jasper_interactive' ...
+2026-10-01 22:15:16.570470 (14487) lic_core INFO    ... (1) checkout succeeded
+2026-10-01 22:15:16.570606 (14487) lic__man INFO    Claim 'fpv' for <ui>.
+2026-10-01 22:15:16.570659 (14487) lic_core INFO    (2) checking out 'jasper_fpv' ...
+2026-10-01 22:15:16.575863 (14487) lic_core INFO    ... (2) checkout failed (error: -5) ("FLEXnet ERROR(-5, 0, 0): No such feature exists.")
+2026-10-01 22:15:16.575918 (14487) lic_core INFO    (3) checking out 'jasper_fao' ...
+2026-10-01 22:15:16.593703 (14487) lic_core INFO    ... (3) checkout succeeded
+2026-10-01 22:15:16.594730 (14487) main____ INFO    Tool inactivity delay is 480000 ms.
+2026-10-01 22:15:17.545986 (14487) lic__man INFO    Claim 'fpv' for <ui>.
+2026-10-01 22:15:17.865971 (14487) lic__man INFO    Unclaim 'fpv' for <ui>.
+2026-10-01 22:15:17.866044 (14487) lic__man INFO    Claim 'fpv' for <ui>.
+2026-10-01 22:15:17.871606 (14487) session_ INFO    Starting analysis session with session id 'session_0' (launcher: <local>) ...
+2026-10-01 22:15:17.874135 (14487) session_ INFO    Analysis session with session id 'session_0' started (pid: 14575)
+2026-10-01 22:15:19.288924 (14487) session_ INFO    Analysis session 'session_0' connected to the console (host: 127.0.0.1:40262)
+2026-10-01 22:15:20.054251 (14487) lic__man INFO    Unclaim everything for 'session_0'.
+2026-10-01 22:15:20.391725 (14487) lic__man INFO    Unclaim everything for 'session_0'.
+2026-10-01 22:15:20.502155 (14487) lic__man INFO    Claim 'fpv' for 'session_0/prove-0'.
+2026-10-01 22:15:20.743693 (14487) lic__man INFO    Unclaim everything for 'session_0/prove-0'.
+2026-10-01 22:23:28.289329 (14487) lic__man INFO    Entering idle state.
+2026-10-01 22:24:57.466337 (14487) lic__man INFO    Leaving idle state.
+2026-10-01 22:33:22.843121 (14487) lic__man INFO    Entering idle state.
+2026-10-01 22:37:20.112985 (14487) lic__man INFO    Leaving idle state.
+2026-10-01 22:45:20.113338 (14487) lic__man INFO    Entering idle state.
